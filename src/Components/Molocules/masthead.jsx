@@ -1,23 +1,25 @@
 import React, { Component } from 'react'
-import Images from '../Atoms/Images'
+import BannerImage from './circute.jpg'
 
 class Masthead extends Component {
-    constructor(props) {
-        super(props)
-    }
     static defaultProps = {
-        src: "./placeholder.jpg",
+        src: BannerImage,
         alt: "A placeholder image",
         height: 150,
-        width: 200        
+        width: 200
     }
-    render() { 
+    render() {
         return (
-            <>
-                <Images src='./circute.jpg' alt='A circuit board background' height='200' width='1200' />
-            </>
+            <div className='banner'>
+                <div className='hero-img'>
+                    <div className='container-fluid' role='banner'>
+                        <h1>Custom Software Solutions</h1>
+                        <h2>Tailord to your business</h2>
+                    </div>
+                </div>
+            </div>
         );
     }
 }
- 
+
 export default Masthead;

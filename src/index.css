@@ -11,3 +11,50 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.logo
+{
+  padding: 15px;
+}
+
+.banner 
+{
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.hero-img
+{
+  background-image: linear-gradient( rgba(25,25,25,.75), rgba(25,25,25,.75)), url('../src/Components/Molocules/circute.jpg');
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  width: 100%;
+  min-height: 250px;
+}
+
+.hero-img h1
+{
+  padding-top: 1.2rem;
+  font-size: 2.8rem;
+  padding-right: 2.5rem;
+  line-height: 3.9rem;
+  color: #ffffff;
+  text-align: right;
+}
+
+.hero-img h2
+{
+  padding-top: .2rem;
+  font-size: 1.8rem;
+  padding-right: 2.5rem;
+  line-height: 1.8rem;
+  color: #ffffff;
+  text-align: right;
+}
+
+.content
+{
+  padding-top: 2rem;
+}

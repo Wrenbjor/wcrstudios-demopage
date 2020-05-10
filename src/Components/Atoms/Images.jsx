@@ -1,9 +1,6 @@
 import React, { Component } from 'react'
 
 class Images extends Component {
-    constructor(props) {
-        super(props)
-    }
     static defaultProps = {
         src: "./placeholder.jpg",
         alt: "A placeholder image",
